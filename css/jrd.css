@@ -1,0 +1,120 @@
+body {
+    background-color: rgba(32, 29, 29, 0.808);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;    
+    height: 100%;
+    background-size: cover;
+    background-image: url(img/fundo.jpg);
+}
+ 
+ul {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: circle;
+    padding: 16px;  
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+
+.equipe{
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.menu-principal {
+    height: 100px;
+    color: black;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+    
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+    
+.menu ul li a:hover {
+    color: #00bac6;    
+}
+    
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    list-style-type: circle;
+    color: red;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 5px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.conteiner {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.grade {
+    width: 100%;
+    height: 100%;
+}
