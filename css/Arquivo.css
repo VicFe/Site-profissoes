@@ -64,8 +64,9 @@ header img {
 .menu ul li a {
     color: #8b8b8b;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
+    color: white;
 }
 
 .menu {
@@ -112,4 +113,28 @@ footer p {
 
 nav a:hover {
     color: red;
+}
+
+@media (max-width: 600px) {
+    
+    .menu li{
+        width: 100%;
+        height: 100%;
+    }
+
+    .equipe .pessoa{
+        width: 70px;
+        height: 70px;
+        margin: 0px;
+    }
+
+    .equipe .redes{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu ul li a {
+        color: white;
+        font-size: 15px;
+    }
 }
