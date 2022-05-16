@@ -64,8 +64,9 @@ header img {
 .menu ul li a {
     color: #8b8b8b;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
+    color: white;
 }
 
 .menu {
@@ -117,4 +118,23 @@ nav a:hover {
 .grade {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 600px) {
+    
+    .menu li{
+        width: 100%;
+        height: 100%;
+    }
+
+    .grade img{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .menu ul li a {
+        color: white;
+        font-size: 15px;
+    }
 }
