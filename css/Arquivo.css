@@ -36,6 +36,11 @@ header img {
     text-align: center;
 }
 
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
 .menu-principal {
     height: 100px;
     color: black;
